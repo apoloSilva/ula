@@ -6,3 +6,5 @@ TB_FILES = $(TB_DIR)/tb_ula.sv
 
 syntax:
 	vlogan -full64 -sverilog -kdb +lint=all $(RTL_FILES) $(TB_FILES)
+
+	
